@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>YardInformation</class>
+ <widget class="QWidget" name="YardInformation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="nextButton">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>380</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下一页</string>
+   </property>
+   <property name="name" stdset="0">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="previousButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>380</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>上一页</string>
+   </property>
+   <property name="name" stdset="0">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>641</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="positionButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查看位置关系</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wholeYardButton">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查看全部货场信息</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>12</height>
+     </size>
+    </property>
+    <property name="name" stdset="0">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="searchBox">
+    <property name="geometry">
+     <rect>
+      <x>317</x>
+      <y>11</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="name" stdset="0">
+     <string>SelectedButton</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="searchLable">
+    <property name="geometry">
+     <rect>
+      <x>394</x>
+      <y>11</y>
+      <width>24</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>搜索</string>
+    </property>
+    <property name="name" stdset="0">
+     <string>SearchLable</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="searchLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>424</x>
+      <y>11</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="name" stdset="0">
+     <string>SearchLine</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>62</y>
+     <width>651</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="name" stdset="0">
+    <string>DisplayBox</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pictureLabel">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>90</y>
+     <width>350</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>350</width>
+     <height>251</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
